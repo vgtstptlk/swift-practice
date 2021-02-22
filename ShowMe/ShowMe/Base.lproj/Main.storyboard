@@ -61,6 +61,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dMf-qP-Z7b"/>
+                    <connections>
+                        <outlet property="textToSendField" destination="LAi-NA-Y08" id="5ZK-RM-hGb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="I9a-vS-8GB" userLabel="Exit" sceneMemberID="exit"/>

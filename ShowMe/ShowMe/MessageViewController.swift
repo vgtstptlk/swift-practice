@@ -9,10 +9,12 @@ import UIKit
 
 class MessageViewController: UIViewController {
 
+    var messageData: String?
+    
     @IBOutlet weak var messageLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        messageLabel.text = "HAHA"
+        messageLabel.text = messageData
         // Do any additional setup after loading the view.
     }
     
