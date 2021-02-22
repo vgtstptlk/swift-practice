@@ -14,6 +14,8 @@
 		294897F325E382AC0030C6FF /* ItemsExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 294897F125E382AC0030C6FF /* ItemsExample.xcdatamodeld */; };
 		294897F525E382AD0030C6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294897F425E382AD0030C6FF /* Assets.xcassets */; };
 		294897F825E382AD0030C6FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294897F625E382AD0030C6FF /* LaunchScreen.storyboard */; };
+		2948980225E38DE90030C6FF /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948980125E38DE90030C6FF /* MyViewController.swift */; };
+		2948980525E391870030C6FF /* ObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2948980425E391870030C6FF /* ObserverProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		294897F425E382AD0030C6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		294897F725E382AD0030C6FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		294897F925E382AD0030C6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2948980125E38DE90030C6FF /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		2948980425E391870030C6FF /* ObserverProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		294897DC25E382AB0030C6FF = {
 			isa = PBXGroup;
 			children = (
+				2948980425E391870030C6FF /* ObserverProtocol.swift */,
+				2948980125E38DE90030C6FF /* MyViewController.swift */,
 				294897E725E382AC0030C6FF /* ItemsExample */,
 				294897E625E382AC0030C6FF /* Products */,
 			);
@@ -143,7 +149,9 @@
 				294897ED25E382AC0030C6FF /* ViewController.swift in Sources */,
 				294897E925E382AC0030C6FF /* AppDelegate.swift in Sources */,
 				294897EB25E382AC0030C6FF /* SceneDelegate.swift in Sources */,
+				2948980225E38DE90030C6FF /* MyViewController.swift in Sources */,
 				294897F325E382AC0030C6FF /* ItemsExample.xcdatamodeld in Sources */,
+				2948980525E391870030C6FF /* ObserverProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R5SV66Z48;
 				INFOPLIST_FILE = ItemsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R5SV66Z48;
 				INFOPLIST_FILE = ItemsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
